@@ -1,11 +1,11 @@
 export const images = [
     {
       alt: 'Die Kompanie auf der Festung',
-      src: 'festung.jpg',
+      src: '/images/carousel/festung.jpg',
     },
     {
         alt: 'Die Kompanie auf der Festung',
-        src: '2014.jpg',
+        src: '/images/carousel/2014.jpg',
       },
     
   ];
