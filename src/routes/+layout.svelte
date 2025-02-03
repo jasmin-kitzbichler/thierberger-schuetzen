@@ -32,10 +32,10 @@ let { children } = $props();
 	</Carousel>
   </div>
 
-<div class="flex place-content-between -mt-20 z-40 relative">
+<div class="md:flex place-content-between -mt-20 z-40 relative">
 	<div class="mb-4 rounded-xl bg-white w-max py-3 px-3 ml-3 flex">
 		  <img alt="" src="https://placehold.co/50x50"/>
-		  <h1 class="text-4xl font-extrabold leading-none tracking-tight md:text-5xl text-emerald-700 ">Thierberger Schützen</h1>  
+		  <h1 class="my-auto text-3xl font-extrabold leading-none tracking-tight md:text-4xl text-emerald-700 ">Thierberger Schützen</h1>  
 	</div>
 	<div class="mb-4 rounded-xl bg-white w-max px-2 flex mr-3">
 		<p class="m-auto font-semibold">Unterstützt durch:</p>
