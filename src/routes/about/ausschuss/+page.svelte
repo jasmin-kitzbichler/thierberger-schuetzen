@@ -1,5 +1,5 @@
 <div class="bg-gray-100 px-8 py-2 rounded-xl">
-    <h2 class="text-3xl font-extrabold dark:text-white my-3">Ausschuss</h2>
+    <h2 class="text-2xl md:text-3xlfont-extrabold dark:text-white my-3">Ausschuss</h2>
     
     <div class="card-container">
         <div class="myCard">
