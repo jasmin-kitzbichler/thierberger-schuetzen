@@ -4,78 +4,92 @@
    <!-- <link rel="icon" type="image/svg" href={icon-path} /> -->
 </svelte:head>
 
-<script>
-import { Navbar, NavBrand, NavLi, NavUl, NavHamburger, Dropdown, DropdownItem, DropdownDivider } from 'flowbite-svelte';
-  import { ChevronDownOutline } from 'flowbite-svelte-icons';
-  import { page } from '$app/stores';
+<script lang='ts'>
+	import { Navbar, NavBrand, NavLi, NavUl, NavHamburger, Dropdown, DropdownItem, DropdownDivider } from 'flowbite-svelte';
+ 	import { ChevronDownOutline } from 'flowbite-svelte-icons';
+	import { page } from '$app/stores';
 
+	import "../app.css";
 
-import "../app.css";
+	import { Carousel } from 'flowbite-svelte';
+	import { images } from '../imageData/+server';
+	import Indicators from "flowbite-svelte/Indicators.svelte";
 
-import { Carousel } from 'flowbite-svelte';
-import { images } from '../imageData/+server';
-import Indicators from "flowbite-svelte/Indicators.svelte";
+	let hideNavMenu = $state(true);
+
+    const onNavHamburgerClick = (toggleFn: () => void) => {
+        toggleFn();
+        hideNavMenu = !hideNavMenu;
+    };
+
+    const onNavLinkClick = (toggleFn: () => void) => {
+        hideNavMenu = true;
+    };
 
 let { children } = $props();
 </script>
 
 
 <div class="max-w-[90vw] m-auto">
-<div class="w-full z-0">
-	<Carousel
-		class=""
-		style="height:25rem; z-index:0"
-		{images} 
-		duration="3000" 
-		let:Indicators>
 
-	</Carousel>
-  </div>
+	<Navbar let:toggle class="rounded-xl bg-gray-300 p-1 ">
+		<NavHamburger onClick={() => onNavHamburgerClick(toggle)}  />
+		<NavUl hidden={hideNavMenu}>
+		  <NavLi class="md:hover:text-emerald-700" href="/" on:click={() => onNavLinkClick(toggle)}>Startseite</NavLi>
+		  <NavLi class="md:hover:text-emerald-700" href="/calendar" on:click={() => onNavLinkClick(toggle)}>Termine</NavLi>
+		  <NavLi class="cursor-pointer md:hover:text-emerald-700" >
+			Über Uns<ChevronDownOutline class="w-6 h-6 ms-2 text-emerald-700 dark:text-white inline" />
+		  </NavLi>
+		  <Dropdown class="md:w-44 w-[80vw] z-20">
+			<DropdownItem href="/about/gilde" on:click={() => onNavLinkClick(toggle)} >Gilde</DropdownItem>
+			<DropdownItem href="/about/kompanie" on:click={() => onNavLinkClick(toggle)}>Kompanie</DropdownItem>
+			<DropdownItem href="/about/ausschuss" on:click={() => onNavLinkClick(toggle)}>Ausschuss</DropdownItem>
+			<DropdownItem href="/about/chronik" on:click={() => onNavLinkClick(toggle)}>Chronik</DropdownItem>
+		  </Dropdown>
+		  <NavLi class="cursor-pointer md:hover:text-emerald-700">
+			Unser Schießstand<ChevronDownOutline class="w-6 h-6 ms-2 text-emerald-700 dark:text-white inline" />
+		  </NavLi>
+		  <Dropdown class="w-44 z-20">
+			<DropdownItem href="/schießstand/luftgewehr" on:click={() => onNavLinkClick(toggle)}>Luftgewehr</DropdownItem>
+			<DropdownItem href="/schießstand/kleinkaliber" on:click={() => onNavLinkClick(toggle)}>Kleinkaliber</DropdownItem>
+		  </Dropdown>
+		  <NavLi class="md:hover:text-emerald-700" href="/beitritt" on:click={() => onNavLinkClick(toggle)}>Mitglied werden</NavLi>
+		  <NavLi class="cursor-pointer md:hover:text-emerald-700">
+			Der Thierberg Turm<ChevronDownOutline class="w-6 h-6 ms-2 text-emerald-700 dark:text-white inline " />
+		  </NavLi>
+		  <Dropdown class="w-44 z-20">
+			<DropdownItem href="/turm/informationen" on:click={() => onNavLinkClick(toggle)}>Zum Turm</DropdownItem>
+			<DropdownItem href="/schießstand/kleinkaliber" on:click={() => onNavLinkClick(toggle)}>Geschichte</DropdownItem>
+		  </Dropdown>
+		  <NavLi class="md:hover:text-emerald-700" href="/kontakt" on:click={() => onNavLinkClick(toggle)}>Kontakt</NavLi>
+		</NavUl>
+	  </Navbar>
 
-<div class="md:flex place-content-between -mt-20 z-40 relative">
-	<div class="mb-4 rounded-xl bg-white w-max py-3 px-3 ml-3 flex">
-		  <img alt="" src="https://placehold.co/50x50"/>
-		  <h1 class="my-auto text-2xl font-extrabold leading-none tracking-tight md:text-4xl text-emerald-700 ">Thierberger Schützen</h1>  
+	<div class="w-full z-0">
+		<Carousel
+			class=""
+			style="height:25rem; z-index:0"
+			{images} 
+			duration="3000" 
+			let:Indicators>
+
+		</Carousel>
 	</div>
-	<div class="mb-4 rounded-xl bg-white w-max px-2 flex mr-3">
-		<p class="m-auto font-semibold">Unterstützt durch:</p>
-		<img class="max-w-20 mx-1" alt="Pirlo" src="https://www.pirlo.com/build/pirlo/images/template/logo.svg"/>
-		<img class="max-w-20 mx-1" alt="Stadt Kufstein" src="https://upload.wikimedia.org/wikipedia/commons/7/79/Kufstein_Logo.svg"/>
-	</div>
-</div>
 
-  <Navbar class="rounded-xl bg-gray-300 p-1">
-	<NavHamburger />
-	<NavUl>
-	  <NavLi class="md:hover:text-emerald-700" href="/">Startseite</NavLi>
-	  <NavLi class="md:hover:text-emerald-700" href="/calendar">Termine</NavLi>
-	  <NavLi class="cursor-pointer md:hover:text-emerald-700">
-		Über Uns<ChevronDownOutline class="w-6 h-6 ms-2 text-emerald-700 dark:text-white inline" />
-	  </NavLi>
-	  <Dropdown class="w-44 z-20">
-		<DropdownItem href="/about/gilde">Gilde</DropdownItem>
-		<DropdownItem href="/about/kompanie">Kompanie</DropdownItem>
-		<DropdownItem href="/about/ausschuss">Ausschuss</DropdownItem>
-		<DropdownItem href="/about/chronik">Chronik</DropdownItem>
-	  </Dropdown>
-	  <NavLi class="cursor-pointer md:hover:text-emerald-700">
-		Unser Schießstand<ChevronDownOutline class="w-6 h-6 ms-2 text-emerald-700 dark:text-white inline" />
-	  </NavLi>
-	  <Dropdown class="w-44 z-20">
-		<DropdownItem href="/schießstand/luftgewehr">Luftgewehr</DropdownItem>
-		<DropdownItem href="/schießstand/kleinkaliber">Kleinkaliber</DropdownItem>
-	  </Dropdown>
-	  <NavLi class="md:hover:text-emerald-700" href="/beitritt">Mitglied werden</NavLi>
-	  <NavLi class="cursor-pointer md:hover:text-emerald-700">
-		Der Thierberg Turm<ChevronDownOutline class="w-6 h-6 ms-2 text-emerald-700 dark:text-white inline " />
-	  </NavLi>
-	  <Dropdown class="w-44 z-20">
-		<DropdownItem href="/turm/informationen">Zum Turm</DropdownItem>
-		<DropdownItem href="/schießstand/kleinkaliber">Geschichte</DropdownItem>
-	  </Dropdown>
-	  <NavLi class="md:hover:text-emerald-700" href="/kontakt">Kontakt</NavLi>
-	</NavUl>
-  </Navbar>
+	<div class="md:flex place-content-between -mt-[7rem] z-40 relative">
+		<div class="mb-4 rounded-xl bg-white py-3 px-3 mx-3 sm:w-[94%] md:w-auto">
+			<a class="flex" title="Zur Startseite" href="/">
+				<img class="max-w-24" alt="" src="/logoohnetextdunkelgruen.svg"/>
+				<h1 class="unifrakturmaguntia-regular my-auto text-3xl font-extrabold leading-none tracking-tight  ml-4 md:w-[42vw] md:text-6xl text-emerald-700 ">Thierberger Schützen</h1>  
+			</a>
+		</div>
+		<div class="mb-4 rounded-xl bg-white w-max px-2 flex mr-3">
+			<p class="m-auto font-semibold">Unterstützt durch:</p>
+			<img class="max-w-20 mx-1" alt="Pirlo" src="https://www.pirlo.com/build/pirlo/images/template/logo.svg"/>
+			<img class="max-w-20 mx-1" alt="Stadt Kufstein" src="https://upload.wikimedia.org/wikipedia/commons/7/79/Kufstein_Logo.svg"/>
+		</div>
+	</div>
+
 {@render children()}
 
 </div>

@@ -7,6 +7,9 @@ export default {
   darkMode: 'selector',
 	theme: {
 		extend: {
+      // fontFamily:{
+      //   'oldenglish': ['Old English Text MT', 'sans-serife'],
+      // },
       colors: {
         // flowbite-svelte
         primary: {
