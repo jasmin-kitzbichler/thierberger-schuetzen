@@ -23,6 +23,18 @@
 
         <div class="myCard">
             <img class="placeholder" alt="Auschuss Mitglied" src="https://placehold.co/400x400"/>
+            <h3 class="name">Gottfried Pfister</h3>
+            <p class="function">Fähnrich</p>
+        </div>
+
+        <div class="myCard">
+            <img class="placeholder" alt="Auschuss Mitglied" src="https://placehold.co/400x400"/>
+            <h3 class="name">Rene Schebesta</h3>
+            <p class="function">Kanonier</p>
+        </div>
+
+        <div class="myCard">
+            <img class="placeholder" alt="Auschuss Mitglied" src="https://placehold.co/400x400"/>
             <h3 class="name">Martin Nagiller</h3>
             <p class="function">Schriftführer</p>
         </div>
