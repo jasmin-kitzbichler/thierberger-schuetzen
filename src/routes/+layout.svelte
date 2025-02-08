@@ -49,7 +49,7 @@ let { children } = $props();
 		  <NavLi class="cursor-pointer md:hover:text-emerald-700">
 			Unser Schießstand<ChevronDownOutline class="w-6 h-6 ms-2 text-emerald-700 dark:text-white inline" />
 		  </NavLi>
-		  <Dropdown class="w-44 z-20">
+		  <Dropdown class="md:w-44 w-[80vw] z-20">
 			<DropdownItem href="/schießstand/luftgewehr" on:click={() => onNavLinkClick(toggle)}>Luftgewehr</DropdownItem>
 			<DropdownItem href="/schießstand/kleinkaliber" on:click={() => onNavLinkClick(toggle)}>Kleinkaliber</DropdownItem>
 		  </Dropdown>
@@ -57,9 +57,9 @@ let { children } = $props();
 		  <NavLi class="cursor-pointer md:hover:text-emerald-700">
 			Der Thierberg Turm<ChevronDownOutline class="w-6 h-6 ms-2 text-emerald-700 dark:text-white inline " />
 		  </NavLi>
-		  <Dropdown class="w-44 z-20">
+		  <Dropdown class="md:w-44 w-[80vw] z-20">
 			<DropdownItem href="/turm/informationen" on:click={() => onNavLinkClick(toggle)}>Zum Turm</DropdownItem>
-			<DropdownItem href="/schießstand/kleinkaliber" on:click={() => onNavLinkClick(toggle)}>Geschichte</DropdownItem>
+			<DropdownItem href="/turm/geschichte" on:click={() => onNavLinkClick(toggle)}>Geschichte</DropdownItem>
 		  </Dropdown>
 		  <NavLi class="md:hover:text-emerald-700" href="/kontakt" on:click={() => onNavLinkClick(toggle)}>Kontakt</NavLi>
 		</NavUl>
