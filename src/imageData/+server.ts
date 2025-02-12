@@ -4,8 +4,20 @@ export const images = [
       src: '/images/carousel/festung.jpg',
     },
     {
-        alt: 'Die Kompanie auf der Festung',
-        src: '/images/carousel/2014.jpg',
+      alt: 'Fähnrich und Hauptmann in der Pfarre Zell',
+      src: '/images/carousel/banner3.jpg',
+    },
+    {
+      alt: 'Schießsport als Präsionssport',
+      src: '/images/carousel/banner4.jpg',
+    },
+    {
+        alt: 'Vereinsheim',
+        src: '/images/carousel/banner.jpg',
+      },
+    {
+        alt: 'Die Kompanie beim Zellerfest',
+        src: '/images/carousel/banner2.jpeg',
       },
     
   ];

@@ -1,3 +1,5 @@
+
+
 <div class="bg-gray-100 px-8 py-2 rounded-xl">
     <h2 class="text-2xl md:text-3xl font-extrabold dark:text-white my-3">Gilde</h2>
     <p class="my-3">Die Thierberger Schützengilde ist tief in der Geschichte des Schützenwesens verwurzelt und verbindet Tradition mit sportlichem Ehrgeiz. Seit Jahrhunderten waren Schützen ein wichtiger Bestandteil des gesellschaftlichen Lebens, sei es als Verteidiger der Heimat, als Meister der Treffsicherheit oder als Bewahrer von Brauchtum und Gemeinschaft. Auch in Thierberg wurde diese Tradition gepflegt, doch erst 1922 entstand unter der Federführung des Gastwirts Alfons Nocker die moderne Schützengilde. Sie trat die Nachfolge der 1918 aufgelösten Standschützen an und führte die lange Geschichte des Schützenwesens in der Region fort.</p>

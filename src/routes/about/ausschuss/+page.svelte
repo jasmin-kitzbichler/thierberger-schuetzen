@@ -103,7 +103,7 @@
     }
 
     .card-container{
-        @apply grid md:grid-cols-4 grid-cols-2 gap-3
+        @apply grid md:grid-cols-4 md:gap-3 grid-cols-2 gap-1
     }
 
     .name{

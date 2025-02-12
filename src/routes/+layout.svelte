@@ -6,12 +6,13 @@
 
 <script lang='ts'>
 	import { Navbar, NavBrand, NavLi, NavUl, NavHamburger, Dropdown, DropdownItem, DropdownDivider } from 'flowbite-svelte';
- 	import { ChevronDownOutline } from 'flowbite-svelte-icons';
+ 	import { ChevronDownOutline, FacebookSolid, InstagramSolid } from 'flowbite-svelte-icons';
 	import { page } from '$app/stores';
 
 	import "../app.css";
 
 	import { Carousel } from 'flowbite-svelte';
+	import { Footer, FooterBrand, FooterCopyright, FooterIcon, FooterLink, FooterLinkGroup } from 'flowbite-svelte';
 	import { images } from '../imageData/+server';
 	import Indicators from "flowbite-svelte/Indicators.svelte";
 
@@ -91,6 +92,23 @@ let { children } = $props();
 	</div>
 
 {@render children()}
+
+<Footer class="px-8 py-4">
+	<div class="sm:flex sm:items-center sm:justify-between">
+	<FooterCopyright copyrightMessage="" by="Thierberger Schützen, Morsbach 71 6330 Kufstein, ZVR-Nr.: 262203066" year={2025} />
+	<FooterLinkGroup ulClass="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
+	  <FooterLink href="https://maps.app.goo.gl/skP2fuyF4s461QY9A" target="_blank">Anfahrt</FooterLink>
+	  <FooterLink href="/impressum">Impressum</FooterLink>
+	  <FooterLink href="/datenschutz">Datenschutz</FooterLink>
+	  <FooterIcon class="p-2" href="https://www.instagram.com/thierberger.schuetzen/" target="_blank">
+        <InstagramSolid class="w-7 h-7 text-gray-500 dark:text-gray-500 hover:text-gray-900 dark:hover:text-white" />
+      </FooterIcon>
+	  <FooterIcon class="p-2 " href="https://www.facebook.com/p/Thierberger-Schützen-100057561487417/" target="_blank">
+        <FacebookSolid class="w-6 h-6 text-gray-500 dark:text-gray-500 hover:text-gray-900 dark:hover:text-white" />
+      </FooterIcon>
+	</FooterLinkGroup>
+	</div>
+  </Footer>
 
 </div>
 
