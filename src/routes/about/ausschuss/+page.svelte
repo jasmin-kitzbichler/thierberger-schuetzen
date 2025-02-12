@@ -80,6 +80,7 @@
             <img class="placeholder" alt="Auschuss Mitglied" src="https://placehold.co/400x400"/>
             <h3 class="name">Jasmin Kitzbichler</h3>
             <p class="function">Schützenrat</p>
+            <a title="E-Mail senden" href="mailto:webmanagement.thierberg@gmail.com">webmanagement.thierberg@gmail.com</a>
         </div>
 
         <div class="myCard">
