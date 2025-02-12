@@ -81,7 +81,7 @@ let { children } = $props();
 		<div class="mb-4 rounded-xl bg-white py-3 px-3 mx-3 sm:w-[94%] md:w-auto">
 			<a class="flex" title="Zur Startseite" href="/">
 				<img class="max-w-24" alt="" src="/logoohnetextdunkelgruen.svg"/>
-				<h1 class="unifrakturmaguntia-regular my-auto text-3xl font-extrabold leading-none tracking-tight  ml-4 md:w-[42vw] md:text-6xl text-emerald-700 ">Thierberger Schützen</h1>  
+				<h1 class="unifrakturmaguntia-regular my-auto text-4xl font-extrabold leading-none tracking-tight  ml-4 md:w-[42vw] md:text-6xl text-emerald-700 ">Thierberger Schützen</h1>  
 			</a>
 		</div>
 		<div class="mb-4 rounded-xl bg-white w-max px-2 flex mr-3">
@@ -96,10 +96,15 @@ let { children } = $props();
 <Footer class="px-8 py-4">
 	<div class="sm:flex sm:items-center sm:justify-between">
 	<FooterCopyright copyrightMessage="" by="Thierberger Schützen, Morsbach 71 6330 Kufstein, ZVR-Nr.: 262203066" year={2025} />
-	<FooterLinkGroup ulClass="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
+	<FooterLinkGroup ulClass="flex flex-wrap justify-center items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
 	  <FooterLink href="https://maps.app.goo.gl/skP2fuyF4s461QY9A" target="_blank">Anfahrt</FooterLink>
 	  <FooterLink href="/impressum">Impressum</FooterLink>
 	  <FooterLink href="/datenschutz">Datenschutz</FooterLink>
+	</FooterLinkGroup>
+
+	 
+	<FooterLinkGroup ulClass="flex flex-wrap justify-center items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
+  
 	  <FooterIcon class="p-2" href="https://www.instagram.com/thierberger.schuetzen/" target="_blank">
         <InstagramSolid class="w-7 h-7 text-gray-500 dark:text-gray-500 hover:text-gray-900 dark:hover:text-white" />
       </FooterIcon>
