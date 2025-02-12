@@ -59,7 +59,7 @@
 
         <div class="myCard">
             <img class="placeholder" alt="Auschuss Mitglied" src="https://placehold.co/400x400"/>
-            <h3 class="name">Christian Moisburger</h3>
+            <h3 class="name">Christian Meusburger</h3>
             <p class="function">Schützenrat</p>
         </div>
 
