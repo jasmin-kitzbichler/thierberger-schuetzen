@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'Typo-Speed-Bold-Italic-Demo';
   src:url('../Typo-Speed-Bold-Italic-Demo.woff') format('woff'),
-        url('../Typo-Speed-Bold-Italic-Demo.woff2') format('woff2'),
-        url('../Typo-Speed-Bold-Italic-Demo.svg#Typo-Speed-Bold-Italic-Demo') format('svg'),
-        url('../Typo-Speed-Bold-Italic-Demo.eot'),
-        url('../Typo-Speed-Bold-Italic-Demo.eot?#iefix') format('embedded-opentype'),
-        url('../Typo-Speed-Bold-Italic-Demo.otf') format('truetype');
+        url('../fonts/Typo-Speed-Bold-Italic-Demo.woff2') format('woff2'),
+        url('../fonts/Typo-Speed-Bold-Italic-Demo.svg#Typo-Speed-Bold-Italic-Demo') format('svg'),
+        url('../fonts/Typo-Speed-Bold-Italic-Demo.eot'),
+        url('../fonts/Typo-Speed-Bold-Italic-Demo.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Typo-Speed-Bold-Italic-Demo.otf') format('truetype');
 
   font-weight: normal;
   font-style: normal;
