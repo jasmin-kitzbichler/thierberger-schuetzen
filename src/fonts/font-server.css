@@ -1,7 +1,8 @@
 @font-face {
+//TODO: Change all font names to lower case
   font-family: 'Typo-Speed-Bold-Italic-Demo';
   src:url('../Typo-Speed-Bold-Italic-Demo.woff') format('woff'),
-        url('../fonts/Typo-Speed-Bold-Italic-Demo.woff2') format('woff2'),
+        url('../fonts/typo-speed-bold-italic-demo.woff2') format('woff2'),
         url('../fonts/Typo-Speed-Bold-Italic-Demo.svg#Typo-Speed-Bold-Italic-Demo') format('svg'),
         url('../fonts/Typo-Speed-Bold-Italic-Demo.eot'),
         url('../fonts/Typo-Speed-Bold-Italic-Demo.eot?#iefix') format('embedded-opentype'),
