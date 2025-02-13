@@ -17,7 +17,7 @@
 
         <div class="myCard">
             <img class="placeholder" alt="Auschuss Mitglied" src="https://placehold.co/400x400"/>
-            <h3 class="name">Ausschuss Mitglied</h3>
+            <h3 class="name">Matthias Kurz</h3>
             <p class="function">Obmann</p>
         </div>
 
@@ -44,7 +44,12 @@
             <h3 class="name">Maria Steinbacher</h3>
             <p class="function">Kassierin</p>
         </div>
-
+        <div class="myCard">
+            <img class="placeholder" alt="Auschuss Mitglied" src="https://placehold.co/400x400"/>
+            <h3 class="name">Kathrin Diepold</h3>
+            <p class="function">Zeugwartin</p>
+        </div>
+        
         <div class="myCard">
             <img class="placeholder" alt="Auschuss Mitglied" src="https://placehold.co/400x400"/>
             <h3 class="name">Anna Patka</h3>
@@ -80,14 +85,9 @@
             <img class="placeholder" alt="Auschuss Mitglied" src="https://placehold.co/400x400"/>
             <h3 class="name">Jasmin Kitzbichler</h3>
             <p class="function">Schützenrat</p>
-            <a title="E-Mail senden" href="mailto:webmanagement.thierberg@gmail.com">webmanagement.thierberg@gmail.com</a>
+            <a class="sm:text-sm break-words" title="E-Mail senden" href="mailto:webmanagement.thierberg@gmail.com">webmanagement.thierberg@gmail.com</a>
         </div>
 
-        <div class="myCard">
-            <img class="placeholder" alt="Auschuss Mitglied" src="https://placehold.co/400x400"/>
-            <h3 class="name">Sonst noch wer????</h3>
-            <p class="function">Funktion</p>
-        </div>
     
     </div>
 

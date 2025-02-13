@@ -8,6 +8,7 @@
     <br>
     <h3 class="text-2xl md:text-2xl font-bold my-1">Für den Inhalt verantwortlich</h3>
     <p class="my-1">Jasmin Kitzbichler</p>
+    <a title="E-Mail senden" href="mailto:webmanagement.thierberg@gmail.com">webmanagement.thierberg@gmail.com</a>
     <br>
     <h3 class="text-2xl md:text-2xl font-bold my-1">Streitschlichtung</h3>
     <p class="my-1">Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: https://ec.europa.eu/consumers/odr.

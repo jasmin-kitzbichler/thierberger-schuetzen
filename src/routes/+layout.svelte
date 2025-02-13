@@ -8,6 +8,7 @@
 	import { Navbar, NavBrand, NavLi, NavUl, NavHamburger, Dropdown, DropdownItem, DropdownDivider } from 'flowbite-svelte';
  	import { ChevronDownOutline, FacebookSolid, InstagramSolid } from 'flowbite-svelte-icons';
 	import { page } from '$app/stores';
+	import "../fonts/font-server.css"
 
 	import "../app.css";
 
@@ -77,17 +78,17 @@ let { children } = $props();
 		</Carousel>
 	</div>
 
-	<div class="md:flex place-content-between -mt-[7rem] z-40 relative">
+	<div class="md:flex place-content-between -mt-[8rem] z-40 relative">
 		<div class="mb-4 rounded-xl bg-white py-3 px-3 mx-3 sm:w-[94%] md:w-auto">
 			<a class="flex" title="Zur Startseite" href="/">
 				<img class="max-w-24" alt="" src="/logoohnetextdunkelgruen.svg"/>
-				<h1 class="unifrakturmaguntia-regular my-auto text-4xl font-extrabold leading-none tracking-tight  ml-4 md:w-[42vw] md:text-6xl text-emerald-700 ">Thierberger Schützen</h1>  
+				<h1 class="typo_speed my-auto text-4xl font-extrabold leading-none tracking-tight  ml-4 md:w-[36vw] sm:text-3xl md:text-4xl text-emerald-700 ">Thierberger Schützen</h1>  
 			</a>
 		</div>
 		<div class="mb-4 rounded-xl bg-white w-max px-2 flex mr-3">
 			<p class="m-auto font-semibold">Unterstützt durch:</p>
-			<img class="max-w-20 mx-1" alt="Pirlo" src="https://www.pirlo.com/build/pirlo/images/template/logo.svg"/>
-			<img class="max-w-20 mx-1" alt="Stadt Kufstein" src="https://upload.wikimedia.org/wikipedia/commons/7/79/Kufstein_Logo.svg"/>
+			<img class="max-w-20 mx-2 my-5" alt="Pirlo" src="https://www.pirlo.com/build/pirlo/images/template/logo.svg"/>
+			<img class="max-w-20 mx-2 my-5" alt="Stadt Kufstein" src="https://upload.wikimedia.org/wikipedia/commons/7/79/Kufstein_Logo.svg"/>
 		</div>
 	</div>
 
@@ -119,6 +120,11 @@ let { children } = $props();
 
 
 <style>
+	
+
+	.typo_speed{
+		font-family: 'Typo-Speed-Bold-Italic-Demo';
+		}
 
 
 /* .test{
