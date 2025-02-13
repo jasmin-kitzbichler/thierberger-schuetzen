@@ -3,6 +3,7 @@
    <title>Thierberger Schützen</title>
    <!-- <link rel="icon" type="image/svg" href={icon-path} /> -->
    <link rel="preload" as="font" href="../fonts/Typo-Speed-Bold-Italic-Demo.woff" type="font/woff" crossorigin="anonymous">
+   <link rel="preload" as="font" href="../fonts/typo-speed-bold-italic-demo.woff" type="font/woff2" crossorigin="anonymous">
    <link rel="preload" as="font" href="../fonts/Typo-Speed-Bold-Italic-Demo.eot" type="font/eot" crossorigin="anonymous"> 
    <link rel="preload" as="font" href="../fonts/Typo-Speed-Bold-Italic-Demo.otf" type="font/otf" crossorigin="anonymous"> 
    <link rel="preload" as="font" href="../fonts/Typo-Speed-Bold-Italic-Demo.svg" type="font/svg" crossorigin="anonymous"> 
