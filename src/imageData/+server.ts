@@ -4,6 +4,10 @@ export const images = [
       src: '/images/carousel/festung.jpg',
     },
     {
+      alt: 'Der Ferienexpress zu Gast',
+      src: '/images/carousel/image.jpeg',
+    },
+    {
       alt: 'Fähnrich und Hauptmann in der Pfarre Zell',
       src: '/images/carousel/banner3.jpg',
     },

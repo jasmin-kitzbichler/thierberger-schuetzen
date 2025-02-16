@@ -85,7 +85,7 @@
             <img class="placeholder" alt="Auschuss Mitglied" src="https://placehold.co/400x400"/>
             <h3 class="name">Jasmin Kitzbichler</h3>
             <p class="function">Schützenrat</p>
-            <a class="sm:text-sm break-words" title="E-Mail senden" href="mailto:webmanagement.thierberg@gmail.com">webmanagement.thierberg@gmail.com</a>
+            <a class="break-words" title="E-Mail senden" href="mailto:webmanagement.thierberg@gmail.com">webmanagement.thierberg@gmail.com</a>
         </div>
 
     
@@ -103,8 +103,13 @@
         @apply bg-gray-200 p-3 rounded-lg
     }
 
+    .myCard img {
+        /* TODO: solang noch keine Fotos */
+        display: none;
+    }
+
     .card-container{
-        @apply grid md:grid-cols-4 md:gap-3 grid-cols-2 gap-1
+        @apply grid md:grid-cols-3 md:gap-3 grid-cols-1 gap-1
     }
 
     .name{

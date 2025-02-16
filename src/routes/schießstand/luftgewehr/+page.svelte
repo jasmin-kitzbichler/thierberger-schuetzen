@@ -2,8 +2,12 @@
     import { Gallery } from 'flowbite-svelte';
     const images = [
       { alt: 'Jasmin', src: '/images/other/jasmin.jpg' },
-      { alt: 'shoes', src: '/images/other/clown.jpg' },
-      { alt: 'small bag', src: '/images/other/krapfenschiessen.jpeg' },
+      { alt: 'Clown-Scheibe', src: '/images/other/clown.jpg' },
+      { alt: 'Kinder in Faschingskostümen', src: '/images/other/krapfenschiessen.jpeg' },
+      { alt: 'Unsre Schützen-Jugend', src: '/images/other/auswertung.jpeg' },
+      { alt: 'Ferienexpress Kinder', src: '/images/other/ferien.jpeg' },
+      { alt: 'Ferienexpress Kinder Gruppenfoto mit OSM', src: '/images/other/ferien2.jpeg' },
+
     ];
   </script>
   
