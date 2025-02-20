@@ -24,7 +24,7 @@
         
         <div class="myCard">
             <img class="placeholder" alt="Auschuss Mitglied" src="https://placehold.co/400x400"/>
-            <h3 class="name">Markus Diepold</h3>
+            <h3 class="name">Markus Diebold</h3>
             <p class="function">Hauptmann</p>
             <a title="E-Mail senden" href="mailto:hptm.thierberg@gmail.com">hptm.thierberg@gmail.com</a>
         </div>
@@ -63,7 +63,7 @@
         </div>
         <div class="myCard">
             <img class="placeholder" alt="Auschuss Mitglied" src="https://placehold.co/400x400"/>
-            <h3 class="name">Kathrin Diepold</h3>
+            <h3 class="name">Kathrin Diebold</h3>
             <p class="function">Zeugwartin</p>
         </div>
         
