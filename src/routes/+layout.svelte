@@ -16,7 +16,8 @@
 	import { Navbar, NavBrand, NavLi, NavUl, NavHamburger, Dropdown, DropdownItem, DropdownDivider } from 'flowbite-svelte';
  	import { ChevronDownOutline, FacebookSolid, InstagramSolid } from 'flowbite-svelte-icons';
 	import { page } from '$app/stores';
-	import "../fonts/font-server.css"
+	import "../fonts/font-server.css";
+	import { injectAnalytics } from '@vercel/analytics/sveltekit'
 
 	import "../app.css";
 
@@ -35,6 +36,8 @@
     const onNavLinkClick = (toggleFn: () => void) => {
         hideNavMenu = true;
     };
+
+	injectAnalytics();
 
 let { children } = $props();
 </script>
@@ -125,7 +128,6 @@ let { children } = $props();
   </Footer>
 
 </div>
-
 
 <style>
 	
