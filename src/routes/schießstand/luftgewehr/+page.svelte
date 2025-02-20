@@ -1,3 +1,17 @@
+<svelte:head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luftgewehr Schießstand – Thierberger Schützen</title>
+  <meta name="description" content="Der Luftgewehr-Schießstand der Thierberger Schützen bietet optimale Trainingsbedingungen für Anfänger und erfahrene Schützen in Kufstein.">
+  <meta name="keywords" content="Thierberger Schützen, Luftgewehr, Schießstand, Schießsport, Training, Kufstein, Schützenverein">
+  <meta name="author" content="Thierberger Schützen">
+  <meta property="og:title" content="Luftgewehr Schießstand – Thierberger Schützen">
+  <meta property="og:description" content="Entdecken Sie den modernen Luftgewehr-Schießstand der Thierberger Schützen – ideale Trainingsmöglichkeiten für alle Leistungsstufen.">
+  <meta property="og:url" content="https://www.thierberger-schuetzen.at/schießstand/luftgewehr">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="/images/other/ferien.jpeg">
+</svelte:head>
+
 <script>
     import { Gallery } from 'flowbite-svelte';
     const images = [

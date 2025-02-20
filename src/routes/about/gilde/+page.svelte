@@ -1,4 +1,15 @@
-
+<svelte:head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Die Gilde – Thierberger Schützen</title>
+    <meta name="description" content="Erfahren Sie mehr über die Geschichte, Tradition und Werte der Thierberger Schützen-Gilde in Kufstein.">
+    <meta name="keywords" content="Thierberger Schützen, Schützengilde, Geschichte, Tradition, Kufstein, Schützenverein">
+    <meta name="author" content="Thierberger Schützen">
+    <meta property="og:title" content="Über die Gilde – Thierberger Schützen">
+    <meta property="og:description" content="Lernen Sie die Schützengilde der Thierberger Schützen kennen – eine Gemeinschaft mit langer Tradition und starken Werten.">
+    <meta property="og:url" content="https://www.thierberger-schuetzen.at/about/gilde">
+    <meta property="og:type" content="website">
+</svelte:head>
 
 <div class="bg-gray-100 px-8 py-2 rounded-xl">
     <h2 class="text-2xl md:text-3xl font-extrabold dark:text-white my-3">Gilde</h2>

@@ -1,3 +1,15 @@
+<svelte:head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chronik – Thierberger Schützen</title>
+    <meta name="description" content="Die Geschichte der Thierberger Schützen – eine Tradition, die seit Generationen in Kufstein weitergeführt wird.">
+    <meta name="keywords" content="Thierberger Schützen, Chronik, Geschichte, Tradition, Kufstein, Schützenverein, Historie">
+    <meta name="author" content="Thierberger Schützen">
+    <meta property="og:title" content="Chronik – Thierberger Schützen">
+    <meta property="og:description" content="Erfahren Sie mehr über die traditionsreiche Geschichte der Thierberger Schützen von den Anfängen bis heute.">
+    <meta property="og:url" content="https://www.thierberger-schuetzen.at/about/chronik">
+    <meta property="og:type" content="website">
+</svelte:head>
 <div class="bg-gray-100 px-8 py-2 rounded-xl">
     <h3 class="text-2xl md:text-3xl font-extrabold dark:text-white my-3">Chronik</h3>
     <p class="my-3">Die Geschichte der Thierberger Schützen ist tief mit der Entwicklung der Region verwurzelt und reicht bis ins Jahr 1848 zurück, als die Schützenkompanie Thierberg offiziell gegründet wurde. In einer Zeit politischer Umbrüche und nationaler Bewegungen entstanden vielerorts Bürgerwehren, um die Sicherheit der Gemeinden zu gewährleisten. Auch in der Hofmark Thierberg schlossen sich Männer zusammen, um ihre Heimat zu schützen und die Tradition des Schützenwesens zu pflegen.</p>

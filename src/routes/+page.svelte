@@ -1,3 +1,16 @@
+<svelte:head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thierberger Schützen – Startseite</title>
+  <meta name="description" content="Die Thierberger Schützen verbinden historisches Schützenwesen mit modernem Training und gesellschaftlichem Engagement in Kufstein.">
+  <meta name="keywords" content="Thierberger Schützen, Schützenverein, Kufstein, Schießsport, Tradition, Maibaumfest, Zeller Fest, Gemeinschaft, Veranstaltungen, Krapfenschießen">
+  <meta name="author" content="Thierberger Schützen">
+  <meta property="og:title" content="Thierberger Schützen – Startseite">
+  <meta property="og:description" content="Erfahren Sie mehr über die Thierberger Schützen, die Tradition des Schützenwesens und unsere Veranstaltungen in Kufstein.">
+  <meta property="og:url" content="https://www.thierberger-schuetzen.at">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="/images/carousel/banner.jpg">
+</svelte:head>
 
 <script>
   import { Alert } from 'flowbite-svelte';

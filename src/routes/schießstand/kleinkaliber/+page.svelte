@@ -1,3 +1,17 @@
+<svelte:head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kleinkaliber Schießstand – Thierberger Schützen</title>
+  <meta name="description" content="Der Kleinkaliber-Schießstand der Thierberger Schützen bietet ideale Bedingungen für Präzisionstraining und Wettkämpfe in Kufstein.">
+  <meta name="keywords" content="Thierberger Schützen, Kleinkaliber, KK, Schießstand, Schießsport, Training, Kufstein, Schützenverein">
+  <meta name="author" content="Thierberger Schützen">
+  <meta property="og:title" content="Kleinkaliber Schießstand – Thierberger Schützen">
+  <meta property="og:description" content="Erleben Sie den Kleinkaliber-Schießstand der Thierberger Schützen – perfekte Voraussetzungen für Sportschützen und Wettkämpfe.">
+  <meta property="og:url" content="https://www.thierberger-schuetzen.at/schießstand/kleinkaliber">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="/images/other/38201158-0351-46CD-96AF-8E5463C54F58_1_201_a.jpg">
+</svelte:head>
+
 <script>
     import { Gallery } from 'flowbite-svelte';
     const images = [

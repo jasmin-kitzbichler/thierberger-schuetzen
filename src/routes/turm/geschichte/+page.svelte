@@ -1,3 +1,17 @@
+<svelte:head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geschichte des Thierberg Turms – Thierberger Schützen</title>
+    <meta name="description" content="Die Geschichte des Thierberg Turms der Thierberger Schützen – ein bedeutendes Wahrzeichen in Kufstein mit historischer Bedeutung.">
+    <meta name="keywords" content="Thierberger Schützen, Thierberg Turm, Geschichte, Kufstein, Tradition, historisches Wahrzeichen, Kultur">
+    <meta name="author" content="Thierberger Schützen">
+    <meta property="og:title" content="Geschichte des Thierberg Turms – Thierberger Schützen">
+    <meta property="og:description" content="Erfahren Sie alles über die Geschichte des Thierberg Turms der Thierberger Schützen und seine Bedeutung als kulturelles Wahrzeichen in Kufstein.">
+    <meta property="og:url" content="https://www.thierberger-schuetzen.at/turm/geschichte">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="/images/turm/turm2.jpg">
+</svelte:head>
+
 <div class="bg-gray-100 px-8 py-2 rounded-xl">
     <h2 class="text-2xl md:text-3xl font-extrabold dark:text-white my-3">Die Geschichte des Thierberg Turms</h2>
     <p class="my-3">Der Thierberg Turm ist Teil der ehemaligen Burg Thierberg, die im 13. Jahrhundert errichtet wurde. Die Burg diente zunächst als Wehranlage und zur Sicherung der wichtigen Handelswege im Inntal. Im Laufe der Jahrhunderte wechselte sie mehrfach den Besitzer und verlor mit der Zeit ihre militärische Bedeutung.</p>

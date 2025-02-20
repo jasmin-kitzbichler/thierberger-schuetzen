@@ -1,3 +1,17 @@
+<svelte:head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Informationen zum Thierberg Turm – Thierberger Schützen</title>
+  <meta name="description" content="Erfahren Sie alles über den Thierberg Turm – Geschichte, Nutzung und Besichtigungsmöglichkeiten in Kufstein.">
+  <meta name="keywords" content="Thierberger Schützen, Schützenturm, Informationen, Geschichte, Kufstein, Besichtigung, Tradition, Öffnungszeiten, Gehdauer, Startpunkt, Navigation">
+  <meta name="author" content="Thierberger Schützen">
+  <meta property="og:title" content="Informationen zum  Thierberg Turm – Thierberger Schützen">
+  <meta property="og:description" content="Der  Thierberg Turm – ein historisches Wahrzeichen in Kufstein. Erfahren Sie mehr über seine Geschichte und Nutzung.">
+  <meta property="og:url" content="https://www.thierberger-schuetzen.at/turm/informationen">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="/images/turm/turm3.jpg">
+</svelte:head>
+
 <script>
     import { Gallery } from 'flowbite-svelte';
     const images = [
