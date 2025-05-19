@@ -33,7 +33,7 @@
             <img class="placeholder" alt="Auschuss Mitglied" src="https://placehold.co/400x400"/>
             <h3 class="name">Martin Wagner </h3>
             <p class="function">Obmann</p>
-            <a title="E-Mail senden" href="mailto:obmann.thierberg@gmail.com">obmann.thierberg@gmail.com</a>
+            <!-- <a title="E-Mail senden" href="mailto:obmann.thierberg@gmail.com">obmann.thierberg@gmail.com</a> -->
         </div>
 
         <div class="myCard">
